@@ -1,0 +1,119 @@
+{
+  "args": {
+    "target": "gpt2-medium",
+    "draft": "gpt2",
+    "device": "mps",
+    "seed": 0,
+    "output_dir": "results",
+    "n_samples": 1000,
+    "gamma": 4,
+    "top_k": 5,
+    "seq_len": 3,
+    "temperature": 1.0,
+    "prompt_index": 0,
+    "repeats": 5
+  },
+  "runs": [
+    {
+      "seed": 0,
+      "speculative": {
+        "chi2": 33.74883400871416,
+        "df": 35,
+        "p_value": 0.5285714032225922,
+        "tv": 0.10256198139696285,
+        "outside_support": 0
+      },
+      "autoregressive": {
+        "chi2": 26.79005474389439,
+        "df": 35,
+        "p_value": 0.8389647607169404,
+        "tv": 0.09055910192958312,
+        "outside_support": 0
+      }
+    },
+    {
+      "seed": 1,
+      "speculative": {
+        "chi2": 26.702320751312914,
+        "df": 35,
+        "p_value": 0.8420110882614323,
+        "tv": 0.08640317851208917,
+        "outside_support": 0
+      },
+      "autoregressive": {
+        "chi2": 25.277817388583195,
+        "df": 35,
+        "p_value": 0.8869402690755934,
+        "tv": 0.0922458282022143,
+        "outside_support": 0
+      }
+    },
+    {
+      "seed": 2,
+      "speculative": {
+        "chi2": 29.57133224957706,
+        "df": 35,
+        "p_value": 0.7277236493134456,
+        "tv": 0.10008355763291019,
+        "outside_support": 0
+      },
+      "autoregressive": {
+        "chi2": 27.27024599516985,
+        "df": 35,
+        "p_value": 0.8217429425672179,
+        "tv": 0.09443028825352273,
+        "outside_support": 0
+      }
+    },
+    {
+      "seed": 3,
+      "speculative": {
+        "chi2": 42.84369300709438,
+        "df": 35,
+        "p_value": 0.16985241712965302,
+        "tv": 0.11473870221891966,
+        "outside_support": 0
+      },
+      "autoregressive": {
+        "chi2": 38.12085991350948,
+        "df": 35,
+        "p_value": 0.3291984092022048,
+        "tv": 0.10032872328032805,
+        "outside_support": 0
+      }
+    },
+    {
+      "seed": 4,
+      "speculative": {
+        "chi2": 38.584658859461875,
+        "df": 35,
+        "p_value": 0.3105531938070965,
+        "tv": 0.09941999377708734,
+        "outside_support": 0
+      },
+      "autoregressive": {
+        "chi2": 34.02284510658078,
+        "df": 35,
+        "p_value": 0.5152416767618003,
+        "tv": 0.10413975031903715,
+        "outside_support": 0
+      }
+    }
+  ],
+  "pooled": {
+    "speculative": {
+      "chi2": 74.11628173733696,
+      "df": 79,
+      "p_value": 0.6344954856219562,
+      "tv": 0.046682660915828095,
+      "outside_support": 0
+    },
+    "autoregressive": {
+      "chi2": 79.98677474848868,
+      "df": 79,
+      "p_value": 0.44780216913923676,
+      "tv": 0.046164217558060404,
+      "outside_support": 0
+    }
+  }
+}

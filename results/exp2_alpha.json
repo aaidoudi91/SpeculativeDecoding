@@ -1,0 +1,104 @@
+{
+  "args": {
+    "target": "gpt2-medium",
+    "draft": "gpt2",
+    "device": "mps",
+    "seed": 0,
+    "output_dir": "results",
+    "drafts": [
+      "distilgpt2",
+      "gpt2"
+    ],
+    "temperatures": [
+      0.0,
+      0.5,
+      1.0,
+      1.5
+    ],
+    "n_tokens": 64,
+    "n_prompts": 8,
+    "gamma": 4
+  },
+  "results": [
+    {
+      "draft": "distilgpt2",
+      "temperature": 0.0,
+      "alpha_direct": 0.78515625,
+      "alpha_direct_se": 0.05280150324015068,
+      "alpha_empirical": 0.7802690582959642,
+      "alpha_empirical_se": 0.05436899115178763,
+      "tokens_per_iteration": 3.1219512195121952,
+      "tokens_per_iteration_predicted": 3.234793669181181
+    },
+    {
+      "draft": "gpt2",
+      "temperature": 0.0,
+      "alpha_direct": 0.841796875,
+      "alpha_direct_se": 0.03944428383964865,
+      "alpha_empirical": 0.8398169336384439,
+      "alpha_empirical_se": 0.03853383069268928,
+      "tokens_per_iteration": 3.5310344827586206,
+      "tokens_per_iteration_predicted": 3.634863470439767
+    },
+    {
+      "draft": "distilgpt2",
+      "temperature": 0.5,
+      "alpha_direct": 0.7353780418634415,
+      "alpha_direct_se": 0.029192426195382225,
+      "alpha_empirical": 0.6788793103448276,
+      "alpha_empirical_se": 0.03829190648841492,
+      "tokens_per_iteration": 2.598984771573604,
+      "tokens_per_iteration_predicted": 2.6650440862994733
+    },
+    {
+      "draft": "gpt2",
+      "temperature": 0.5,
+      "alpha_direct": 0.8203863799571991,
+      "alpha_direct_se": 0.018436418914949706,
+      "alpha_empirical": 0.826879271070615,
+      "alpha_empirical_se": 0.023873799772770862,
+      "tokens_per_iteration": 3.436241610738255,
+      "tokens_per_iteration_predicted": 3.543456004343013
+    },
+    {
+      "draft": "distilgpt2",
+      "temperature": 1.0,
+      "alpha_direct": 0.641717791557312,
+      "alpha_direct_se": 0.009656258437047366,
+      "alpha_empirical": 0.6452991452991453,
+      "alpha_empirical_se": 0.025545070428108406,
+      "tokens_per_iteration": 2.4380952380952383,
+      "tokens_per_iteration_predicted": 2.503817896208919
+    },
+    {
+      "draft": "gpt2",
+      "temperature": 1.0,
+      "alpha_direct": 0.7282228767871857,
+      "alpha_direct_se": 0.006916697035667881,
+      "alpha_empirical": 0.7714285714285715,
+      "alpha_empirical_se": 0.020271222796595805,
+      "tokens_per_iteration": 3.1801242236024843,
+      "tokens_per_iteration_predicted": 3.179755768429821
+    },
+    {
+      "draft": "distilgpt2",
+      "temperature": 1.5,
+      "alpha_direct": 0.6792666167020798,
+      "alpha_direct_se": 0.005625897933726864,
+      "alpha_empirical": 0.7071583514099783,
+      "alpha_empirical_se": 0.02088012274668062,
+      "tokens_per_iteration": 2.752688172043011,
+      "tokens_per_iteration_predicted": 2.8109349762372817
+    },
+    {
+      "draft": "gpt2",
+      "temperature": 1.5,
+      "alpha_direct": 0.7093935385346413,
+      "alpha_direct_se": 0.008187004310921377,
+      "alpha_empirical": 0.6858974358974359,
+      "alpha_empirical_se": 0.014012741157684416,
+      "tokens_per_iteration": 2.680628272251309,
+      "tokens_per_iteration_predicted": 2.70036498965448
+    }
+  ]
+}

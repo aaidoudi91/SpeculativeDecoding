@@ -1,0 +1,91 @@
+{
+  "args": {
+    "target": "gpt2-medium",
+    "draft": "gpt2",
+    "device": "cpu",
+    "seed": 0,
+    "output_dir": "results/exp3_cpu",
+    "gammas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "temperature": 1.0,
+    "n_tokens": 64,
+    "n_prompts": 8,
+    "cost_context": 48
+  },
+  "c": 0.32736188862307014,
+  "baseline_time": 61.235984459000974,
+  "rows": [
+    {
+      "gamma": 1,
+      "alpha": 0.7152542372881356,
+      "speedup_measured": 1.3002845490145236,
+      "speedup_predicted": 1.2922280291378887,
+      "call_reduction_measured": 1.7009966777408638,
+      "call_reduction_predicted": 1.7152542372881354,
+      "spec_time": 47.094295248998606
+    },
+    {
+      "gamma": 2,
+      "alpha": 0.6600496277915633,
+      "speedup_measured": 1.2416741569181728,
+      "speedup_predicted": 1.266504517404784,
+      "call_reduction_measured": 2.0813008130081303,
+      "call_reduction_predicted": 2.0957151389393442,
+      "spec_time": 49.31727387399951
+    },
+    {
+      "gamma": 3,
+      "alpha": 0.7218390804597701,
+      "speedup_measured": 1.3510747300063584,
+      "speedup_predicted": 1.321338544229895,
+      "call_reduction_measured": 2.585858585858586,
+      "call_reduction_predicted": 2.619006188278565,
+      "spec_time": 45.32390629400106
+    },
+    {
+      "gamma": 4,
+      "alpha": 0.6936542669584245,
+      "speedup_measured": 1.184763173063111,
+      "speedup_predicted": 1.1864646648355222,
+      "call_reduction_measured": 2.6256410256410256,
+      "call_reduction_predicted": 2.7400779186959,
+      "spec_time": 51.686265957001524
+    },
+    {
+      "gamma": 5,
+      "alpha": 0.7121535181236673,
+      "speedup_measured": 1.1542739136301265,
+      "speedup_predicted": 1.1456586518322631,
+      "call_reduction_measured": 2.8764044943820224,
+      "call_reduction_predicted": 3.020883551738113,
+      "spec_time": 53.05151899900193
+    },
+    {
+      "gamma": 6,
+      "alpha": 0.732776617954071,
+      "speedup_measured": 1.138090644042399,
+      "speedup_predicted": 1.1192468862684428,
+      "call_reduction_measured": 3.1801242236024843,
+      "call_reduction_predicted": 3.3176395334144115,
+      "spec_time": 53.805893915001434
+    },
+    {
+      "gamma": 8,
+      "alpha": 0.7418032786885246,
+      "speedup_measured": 1.0258391839599055,
+      "speedup_predicted": 0.9974304886315165,
+      "call_reduction_measured": 3.4133333333333336,
+      "call_reduction_predicted": 3.609596316860676,
+      "spec_time": 59.69355179300146
+    }
+  ],
+  "optimal_gamma": 2,
+  "optimal_speedup": 1.3396221370969603
+}
