@@ -3,3 +3,6 @@ Icon?
 __pycache__/
 .idea/
 .DS_Store
+experiments/plots.py
+.pytest_cache/
+*.pyc
