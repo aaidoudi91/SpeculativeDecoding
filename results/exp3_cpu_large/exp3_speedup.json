@@ -1,0 +1,71 @@
+{
+  "args": {
+    "target": "gpt2-large",
+    "draft": "gpt2",
+    "device": "cpu",
+    "seed": 0,
+    "output_dir": "results/exp3_cpu_large",
+    "gammas": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "temperature": 1.0,
+    "n_tokens": 64,
+    "n_prompts": 8,
+    "cost_context": 48
+  },
+  "c": 0.18519604369566134,
+  "baseline_time": 102.65709266599515,
+  "rows": [
+    {
+      "gamma": 1,
+      "alpha": 0.6302250803858521,
+      "speedup_measured": 1.3744608934859246,
+      "speedup_predicted": 1.375489809519198,
+      "call_reduction_measured": 1.620253164556962,
+      "call_reduction_predicted": 1.6302250803858522,
+      "spec_time": 74.68898762600293
+    },
+    {
+      "gamma": 2,
+      "alpha": 0.7048346055979644,
+      "speedup_measured": 1.6000501828666074,
+      "speedup_predicted": 1.6065667972714412,
+      "call_reduction_measured": 2.178723404255319,
+      "call_reduction_predicted": 2.2016264268464023,
+      "spec_time": 64.15867062499092
+    },
+    {
+      "gamma": 3,
+      "alpha": 0.6886363636363636,
+      "speedup_measured": 1.5691441956857488,
+      "speedup_predicted": 1.6003089249844376,
+      "call_reduction_measured": 2.449760765550239,
+      "call_reduction_predicted": 2.489421569778362,
+      "spec_time": 65.42234483500215
+    },
+    {
+      "gamma": 4,
+      "alpha": 0.7086956521739131,
+      "speedup_measured": 1.5604172670890186,
+      "speedup_predicted": 1.6194665970592903,
+      "call_reduction_measured": 2.752688172043011,
+      "call_reduction_predicted": 2.8191418237499155,
+      "spec_time": 65.78823166799702
+    },
+    {
+      "gamma": 6,
+      "alpha": 0.6993865030674846,
+      "speedup_measured": 1.416381512500941,
+      "speedup_predicted": 1.4467066793042829,
+      "call_reduction_measured": 3.011764705882353,
+      "call_reduction_predicted": 3.0542527996757296,
+      "spec_time": 72.47841895700185
+    }
+  ],
+  "optimal_gamma": 3,
+  "optimal_speedup": 1.5947479048533526
+}
