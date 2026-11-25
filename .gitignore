@@ -6,3 +6,5 @@ __pycache__/
 experiments/plots.py
 .pytest_cache/
 *.pyc
+experiments/plots_slides.py
+results/slides/
