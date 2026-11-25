@@ -1,4 +1,4 @@
-# Speculative Decoding
+# Speculative Decoding from Scratch
 
 From-scratch PyTorch reimplementation of **Fast Inference from Transformers via Speculative Decoding** ([Leviathan, Kalman & Matias, ICML 2023](https://arxiv.org/abs/2211.17192)): a small draft model proposes tokens, the large target model verifies them in a single parallel pass, and the output distribution stays *exactly* that of the target.
 
